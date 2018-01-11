@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SUT_URL="https://github.com/xwiki/xwiki-platform.git"
-SUT_NAME="xwiki-platform"
+SUT_URL="https://github.com/SINTEF-9012/bvr-diversity.git"
+SUT_NAME="bvr-diversity"
 
 if [[ -d $SUT_NAME ]]; then
 	echo "sut has been already downloaded, cleaning, updating..."
